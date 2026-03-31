@@ -60,3 +60,15 @@ Cape Town | January 2019 – Present
 ---
 
 *References available upon request.*
+
+---
+
+## 🎥 Mock Interview Video
+<div align="center">
+  <video src="YOUR_VIDEO_FILENAME.mp4" width="100%" controls>
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+https://github.com/user-attachments/assets/8c0f875d-fc77-4ada-97f9-c6f3e30afb59
+
