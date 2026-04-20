@@ -17,8 +17,9 @@
       padding: 40px 20px;
     }
 
-    h1, h2 {
+    h1 {
       text-align: center;
+      margin-bottom: 30px;
     }
 
     .card {
@@ -58,11 +59,15 @@
       margin-top: 10px;
     }
 
+    iframe {
+      border: none;
+      border-radius: 10px;
+    }
+
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
     }
-
   </style>
 </head>
 
@@ -72,60 +77,65 @@
 
   <h1>Jonathan Scott Munday</h1>
 
-
-<div class="card">
-  <h3>📄 Curriculum Vitae (CV)</h3>
-
-<iframe 
-  src="./main/Jonathan-Munday-Resume.pdf" 
-  width="100%" 
-  height="600px">
-</iframe>
-</div>
-
+  <!-- CV FIRST -->
   <div class="card">
-  <h3>🎥 Mock Interview Video</h3>
+    <h3>📄 Curriculum Vitae (CV)</h3>
 
-<video controls width="100%">
-  <source src="./main/interview.mp4" type="video/mp4">
-</video>
-</div>
+    <iframe 
+      src="./main/Jonathan-Munday-Resume.pdf" 
+      width="100%" 
+      height="600px">
+    </iframe>
+  </div>
 
+  <!-- VIDEO SECOND -->
+  <div class="card">
+    <h3>🎥 Mock Interview Video</h3>
 
+    <video controls width="100%">
+      <source src="./main/interview.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- MOCK INTERVIEW REFLECTION -->
   <div class="card">
     <h3>🧠 Reflection: Mock Interview</h3>
 
     <details open>
       <summary>Introduction</summary>
-      <p>This reflection examines my performance in a formal mock interview conducted as part of the Project Presentation assessment. The session served as a platform to demonstrate my professional readiness, technical alignment with the mobile application development industry, and ability to communicate complex concepts under pressure. By applying the STAR method, I critically evaluate my delivery, body language, and response structure to identify areas for growth.</p>
+      <p>
+        This reflection examines my performance in a formal mock interview conducted as part of the Project Presentation assessment. The session served as a platform to demonstrate my professional readiness, technical alignment with the mobile application development industry, and ability to communicate complex concepts under pressure.
+      </p>
     </details>
 
     <details>
       <summary>STAR Reflection</summary>
       <p><strong>Situation:</strong> Simulated remote job interview for an IT/App Development role.</p>
       <p><strong>Task:</strong> Present my passion, technical background, and readiness as a graduate developer.</p>
-      <p><strong>Action:</strong> Maintained professional appearance, used structured responses, and emphasized key points through gestures and logical breakdowns.</p>
-      <p><strong>Result:</strong> Communicated strong technical awareness but presentation was shorter than required (2:46).</p>
+      <p><strong>Action:</strong> Maintained professional appearance, used structured responses, and emphasized key points clearly.</p>
+      <p><strong>Result:</strong> Communicated strong technical awareness but presentation was slightly shorter than required (2:46).</p>
     </details>
 
     <details>
       <summary>Critical Evaluation</summary>
-      <p><strong>Strengths:</strong> Professional tone, structured delivery, forward-thinking insight (AI awareness).</p>
-      <p><strong>Weaknesses:</strong> Nervousness, lack of detailed real-world examples, shorter duration.</p>
+      <p><strong>Strengths:</strong> Professional tone, structured delivery, strong technical awareness.</p>
+      <p><strong>Weaknesses:</strong> Nervousness, limited real-world examples, shorter duration.</p>
     </details>
 
     <details>
       <summary>Areas for Improvement</summary>
-      <p>Improve confidence, expand STAR responses with real examples, and prepare additional content to meet time requirements.</p>
+      <p>Improve confidence, expand STAR responses with real examples, and practice timing for completeness.</p>
     </details>
 
     <details>
       <summary>Conclusion</summary>
-      <p>This mock interview was a valuable benchmark and highlighted key areas for improvement toward professional readiness.</p>
+      <p>This mock interview provided valuable insight into my readiness for professional environments and highlighted areas for improvement.</p>
     </details>
 
   </div>
 
+  <!-- GITHUB PAGES REFLECTION -->
   <div class="card">
     <h3>🌐 Reflection: GitHub Pages</h3>
 
@@ -138,32 +148,38 @@
       <summary>STAR Reflection</summary>
       <p><strong>Situation:</strong> Needed to publish portfolio online for submission.</p>
       <p><strong>Task:</strong> Deploy a functional website with video and documents.</p>
-      <p><strong>Action:</strong> Configured repository, enabled Pages, ensured proper rendering.</p>
+      <p><strong>Action:</strong> Configured repository, structured files correctly, and enabled GitHub Pages.</p>
       <p><strong>Result:</strong> Successfully deployed a professional and accessible portfolio.</p>
     </details>
 
     <details>
       <summary>Critical Evaluation</summary>
-      <p><strong>Strengths:</strong> Accessibility, integration of content.</p>
-      <p><strong>Weaknesses:</strong> File size issues, Markdown limitations.</p>
+      <p><strong>Strengths:</strong> Accessibility, structured deployment, integration of media.</p>
+      <p><strong>Weaknesses:</strong> File path issues initially and learning GitHub Pages structure.</p>
     </details>
 
     <details>
       <summary>Areas for Improvement</summary>
-      <p>Improve styling, automation, and expand Markdown knowledge.</p>
+      <p>Improve styling, responsiveness, and automate deployment workflow.</p>
     </details>
 
     <details>
       <summary>Conclusion</summary>
-      <p>GitHub Pages transformed my project into a professional portfolio and demonstrated industry-relevant skills.</p>
+      <p>GitHub Pages transformed my project into a professional portfolio and demonstrated real-world development skills.</p>
     </details>
 
   </div>
-    <div class="card">
-    <h3>📄 Download Full Reflection</h3>
-    <p><a href="reflection-mock-interview-and-markdown.pdf" target="_blank">Open PDF Version</a></p>
-  </div>
 
+  <!-- FINAL DOWNLOAD SECTION -->
+  <div class="card" style="text-align:center;">
+    <h3>📄 Download Full Reflection</h3>
+
+    <p>
+      <a href="./main/reflection-mock-interview-and-markdown.pdf" target="_blank">
+        Open PDF Version
+      </a>
+    </p>
+  </div>
 
 </div>
 
