@@ -436,21 +436,6 @@ The work on ActiveEdge also gives me an opportunity to describe a development pr
 
 ---
 
-## Final submission review
-
-Before submitting this portfolio, I will check that each assessment category contains both evidence and a reflection, that all links work, and that the evidence accurately represents the work completed.
-
-- [ ] Original ActiveEdge Team Charter linked and readable.
-- [ ] User stories and tasks checked against the actual Trello board.
-- [ ] Product backlog priorities and statuses checked against Trello.
-- [ ] Sprint goal, dates and selected tasks inserted from the actual sprint record.
-- [ ] Agile logbook dates and meeting/retrospective records inserted from genuine records.
-- [ ] Low- and mid-fidelity wireframe screenshots added.
-- [ ] Frontend contribution evidence added.
-- [ ] Supabase table/column evidence added with secrets removed.
-- [ ] Website and supporting document links tested.
-- [ ] Existing CV, mock interview video and reflection PDF retained in the repository.
-- [ ] No placeholder text remains in the submitted version.
 
 <div class="portfolio-hero" style="margin-top:2.5rem; padding:2rem 2.2rem;">
   <div class="eyebrow">Project Presentation 3 · October 2026</div>
