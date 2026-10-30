@@ -81,14 +81,14 @@ The live project website presents the brand, product collections, best-selling p
       <h4>Project purpose</h4>
       <p>To develop a digital brand and shopping experience for performance sportswear, communicating the product offering and its sustainability positioning through a coherent website experience.</p>
       <p><strong>Backend platform used in my contribution:</strong> Supabase.</p>
-      <p><strong>Frontend framework/language:</strong> [ADD THE VERIFIED FRAMEWORK AND LANGUAGES].</p>
+      <p><strong>Frontend framework/language:</strong> React-Native.</p>
     </div>
   </div>
 </div>
 
 <div class="evidence-placeholder">
   <strong>Project screenshot — ActiveEdge homepage</strong>
-  Add a clear desktop screenshot of the live website homepage.
+  ![ActiveEdge Trello Board](assets/images/active-edge-homepage.png).
   <span class="placeholder-note">Save as <code>assets/images/activeedge-homepage.png</code>, then replace this placeholder with: <code>![ActiveEdge homepage](assets/images/activeedge-homepage.png)</code>.</span>
 </div>
 
@@ -153,8 +153,7 @@ The charter identifies WhatsApp for day-to-day updates, Google Meet for meetings
 
 <div class="evidence-placeholder">
   <strong>Evidence screenshot — original Team Charter</strong>
-  Add a screenshot showing the charter's purpose/vision and team working agreements, or a screenshot of the document open in Word.
-  <span class="placeholder-note">Suggested filename: <code>assets/images/team-charter-evidence.png</code>.</span>
+  
 </div>
 
 ### Individual reflection
