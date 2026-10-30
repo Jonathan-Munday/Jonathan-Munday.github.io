@@ -1,0 +1,14 @@
+title: "Jonathan Scott Munday | Digital Portfolio"
+description: "Project Presentation 3 digital portfolio - ActiveEdge Agile development evidence and reflections."
+url: "https://jonathan-munday.github.io"
+baseurl: ""
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+show_excerpts: false
+header_pages: []
