@@ -152,8 +152,15 @@ The charter identifies WhatsApp for day-to-day updates, Google Meet for meetings
 </div>
 
 <div class="evidence-placeholder">
-  <strong>Evidence screenshot — original Team Charter</strong>
-  
+  <strong>Original Agile Team Charter — PDF Evidence</strong>
+  <p>
+    The original Team Charter was created before I joined the project.
+    It is included here as supporting evidence of the team's original
+    objectives, roles, values and working agreements.
+  </p>
+  <a href="documents/old-team-charter-evidence.pdf" target="_blank">
+    View Original Team Charter (PDF)
+  </a>
 </div>
 
 ### Individual reflection
