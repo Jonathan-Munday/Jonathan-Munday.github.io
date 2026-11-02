@@ -88,8 +88,12 @@ The live project website presents the brand, product collections, best-selling p
 
 <div class="evidence-placeholder">
   <strong>Project screenshot — ActiveEdge homepage</strong>
-  ![ActiveEdge Trello Board](assets/images/active-edge-homepage.png).
-  <span class="placeholder-note">Save as <code>assets/images/activeedge-homepage.png</code>, then replace this placeholder with: <code>![ActiveEdge homepage](assets/images/activeedge-homepage.png)</code>.</span>
+
+  <img
+    src="assets/images/active-edge-homepage.png"
+    alt="ActiveEdge homepage screenshot"
+    style="width: 100%; max-width: 900px; height: auto; border-radius: 12px;"
+  />
 </div>
 
 <a id="contribution"></a>
