@@ -1,140 +1,1052 @@
-Metadata
-layout
-page
-title
-Digital Portfolio | Jonathan Scott Munday
-permalink
-/
-<div class="portfolio-shell" markdown="1"><div class="portfolio-hero"> <div class="eyebrow">Cape Peninsula University of Technology · Project Presentation 3</div> <h1>Jonathan Scott Munday</h1> <p class="hero-subtitle">Agile development portfolio — documenting my contribution to ActiveEdge through user-centred design, wireframing, frontend implementation and Supabase database configuration.</p> <div class="hero-meta"> <span>October 2026 assessment</span> <span>ActiveEdge · Performance Sportswear</span> <span>Individual evidence & reflection</span> </div> <div class="hero-actions"> <a class="primary" href="#assessment-evidence">Explore assessment evidence</a> <a href="https://active-edge-website.vercel.app/" target="_blank" rel="noopener">View ActiveEdge website ↗</a> </div> </div><div class="portfolio-nav" aria-label="Portfolio navigation"> <a href="#overview">Overview</a> <a href="#contribution">My contribution</a> <a href="#team-charter">01 Team charter</a> <a href="#user-stories">02 User stories</a> <a href="#product-backlog">03 Product backlog</a> <a href="#sprint-backlog">04 Sprint backlog</a> <a href="#agile-logbook">05 Agile logbook</a> <a href="#showcase">Project showcase</a> <a href="#professional-development">Professional development</a> </div><div class="glass-grid"> <div class="glass-card"><span class="metric">05</span><span class="metric-label">Agile assessment categories</span></div> <div class="glass-card"><span class="metric">100</span><span class="metric-label">Total available marks</span></div> <div class="glass-card"><span class="metric">50 / 50</span><span class="metric-label">Evidence and reflection weighting</span></div> <div class="glass-card"><span class="metric">UX → UI → Code → Data</span><span class="metric-label">My reported contribution areas</span></div> </div>
-<a id="overview"></a>
+---
+layout: null
+title: ActiveEdge | Digital Portfolio
+description: A digital portfolio documenting my contributions, evidence and learning throughout the ActiveEdge project.
+permalink: /
+---
 
-Portfolio overview
-This portfolio presents evidence of my learning and individual contribution to the ActiveEdge project. It is organised around the five assessment categories in the October 2026 Project Presentation 3 brief: Agile Team Charter, User Stories and Tasks, Product Backlog, Sprint Backlog and Agile Logbook.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jonathan Munday's ActiveEdge digital portfolio for CPUT. Project contributions, agile evidence and personal reflections.">
+  <meta name="author" content="Jonathan Munday">
+  <meta name="theme-color" content="#173d32">
 
-The assessment allocates 10 marks to evidence and 10 marks to reflection in each category. The purpose of this portfolio is therefore not only to display project artefacts, but also to explain what the artefacts demonstrate about my development, decisions and learning.
+  <title>ActiveEdge | Jonathan Munday</title>
 
-<div class="panel panel-soft"> <strong>How to read this portfolio</strong> <p>Each assessment section separates the project evidence from my individual reflection. The portfolio uses the project screenshots and original documents supplied for this version. Any remaining gaps are identified explicitly rather than filled with invented project history.</p> </div>
-The four e-portfolio principles
-<div class="two-col"> <div class="panel"><h4>01 · Collect</h4><p>Bring together project artefacts such as wireframes, design iterations, code evidence, database screenshots and Agile records.</p></div> <div class="panel"><h4>02 · Select</h4><p>Choose evidence that directly demonstrates my contribution and the team's development process.</p></div> <div class="panel"><h4>03 · Reflect</h4><p>Explain what the evidence demonstrates, what I learned and where my approach could improve.</p></div> <div class="panel"><h4>04 · Connect</h4><p>Show how user needs, design decisions, development tasks and the resulting product relate to one another.</p></div> </div>
-<a id="project"></a>
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
 
-Project overview — ActiveEdge
-ActiveEdge is a sustainable performance sportswear concept developed around activewear for fitness-conscious South Africans. The original team charter describes the intended offering as performance activewear made from recycled and eco-certified materials, with products such as leggings, sports bras, T-shirts, shorts and outerwear.
+<body>
 
-The live project website presents the brand, product collections, best-selling products, fabric information, delivery and returns information, and a shopping interface. The live site labels itself as a demo store with no real payments; this portfolio therefore treats it as a demonstration product experience, not as evidence of completed live payment processing.
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<div class="panel"> <div class="two-col"> <div> <h4>Project identity</h4> <p><strong>Project:</strong> ActiveEdge — Performance Sportswear</p> <p><strong>Course shown in team charter:</strong> PRP372S</p> <p><strong>Assessment:</strong> Project Presentation 3 · October 2026</p> <p><strong>Project website:</strong> <a href="https://active-edge-website.vercel.app/" target="_blank" rel="noopener">active-edge-website.vercel.app</a></p> </div> <div> <h4>Project purpose</h4> <p>To develop a digital brand and shopping experience for performance sportswear, communicating the product offering and its sustainability positioning through a coherent website experience.</p> <p><strong>Backend platform used in my contribution:</strong> Supabase.</p> <p><strong>Frontend framework/language:</strong> Confirm against the project source code before submission.</p> </div> </div> </div><div class="evidence-image"> <strong>Project screenshot — ActiveEdge products</strong> <img src="assets/images/products.png" alt="ActiveEdge products screenshot" style="width:100%; max-width:900px; height:auto; border-radius:12px;" /> </div>
-<a id="contribution"></a>
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <div class="nav-container">
 
-My individual contribution
-I joined the ActiveEdge project as an additional team member after the original team charter had already been prepared. My contribution was focused on the product's digital experience and technical implementation, spanning design and development work.
+      <a href="#home" class="brand">
+        <span class="brand-mark">AE</span>
+        <span class="brand-name">
+          <strong>ActiveEdge</strong>
+          <small>Digital Portfolio</small>
+        </span>
+      </a>
 
-UX/UI design and wireframing
-I was responsible for developing the website wireframes, working from low-fidelity to mid-fidelity. This involved translating the product concept into page structures and interface layouts, considering the placement of content, navigation and the way a visitor would move through the website. I also contributed to product design decisions to help shape a consistent website experience for the ActiveEdge brand.
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#overview">Overview</a>
+        <a href="#contributions">My Contributions</a>
+        <a href="#evidence">Assessment Evidence</a>
+        <a href="#reflection">Reflection</a>
+      </nav>
 
-Frontend development
-I contributed to the frontend code by implementing and refining interface elements and touching up existing frontend work. This connected the design stage to the working website and required attention to the visual presentation and consistency of the user interface.
+      <a class="nav-cta" href="#evidence">Explore Portfolio <span>↗</span></a>
 
-Backend and database configuration
-I worked with Supabase on the backend, including setting up the database and configuring columns. This gave me practical exposure to the data layer supporting the application and to the relationship between the information stored in the backend and the experience presented through the frontend.
+    </div>
+  </header>
 
-<div class="three-col"> <div class="panel"><span class="status-chip">My contribution</span><h4>01 · Design</h4><p>Low- to mid-fidelity wireframes and product design.</p></div> <div class="panel"><span class="status-chip">My contribution</span><h4>02 · Frontend</h4><p>Frontend implementation, code changes and interface refinement.</p></div> <div class="panel"><span class="status-chip">My contribution</span><h4>03 · Backend</h4><p>Supabase database setup and column configuration.</p></div> </div><div class="callout"> <strong>Scope and attribution:</strong> This portfolio describes my individual contribution as an additional team member. It does not imply that I authored the original team charter or that I completed every part of the group project independently. Where team-level evidence is shown, my own role is identified separately. </div>
-<a id="assessment-evidence"></a>
 
-Assessment evidence at a glance
-Assessment category	Evidence marks	Reflection marks	Portfolio section
-Agile Team Charter	10	10	Section 01
-User Stories and Tasks	10	10	Section 02
-Product Backlog	10	10	Section 03
-Sprint Backlog	10	10	Section 04
-Agile Logbook	10	10	Section 05
-Total	50	50	100 marks
-<a id="team-charter"></a>
+  <main id="main">
 
-01 — Agile Team Charter
-<div class="section-intro">The team's founding agreement: its purpose, values, roles, communication approach, milestones and ways of working.</div>
-Evidence
-The original ActiveEdge Team Charter was prepared on 1 April 2026. It defines the team's purpose and vision, product concept, founding team roles, core values, Agile principles, communication plan, SMART milestones, Kanban-inspired approach, working agreements and decision-making process.
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
 
-The charter identifies WhatsApp for day-to-day updates, Google Meet for meetings and Google Drive for shared documents. It records a weekly Monday check-in and describes the team's use of a shared Trello board to track work. These are the working arrangements documented in the original charter.
+        <div class="hero-content">
 
-Original artefact: Download the original ActiveEdge Team Charter (PDF).
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            CPUT · Application Development
+          </div>
 
-<div class="panel panel-soft"> <strong>Membership context</strong> <p>I joined ActiveEdge as an additional member after the original charter had been created. The original document is retained as the team's founding agreement and is not presented as a document I authored. My later contribution is documented in the individual-contribution section of this portfolio.</p> </div><div class="evidence-placeholder"> <strong>Original Agile Team Charter — PDF Evidence</strong> <p> The original Team Charter was created before I joined the project. It is included here as supporting evidence of the team's original objectives, roles, values and working agreements. </p> <a href="documents/old-team-charter-evidence.pdf" target="_blank"> View Original Team Charter (PDF) </a> </div>
-Individual reflection
-<div class="reflection"> <h3>Reflection — Agile Team Charter</h3> <p>Because I joined ActiveEdge after the original charter had been prepared, I used it as a reference point for understanding the team's purpose and agreed way of working rather than claiming to have co-created it. Reviewing the document helped me understand the product direction, the responsibilities initially allocated across the founding team, and the expectations the team had set for communication and accountability.</p> <p>The charter's emphasis on respect, transparency, accountability, trust and a learning mindset is relevant to the type of work I contributed. My responsibilities crossed design and development, so progress depended on understanding the wider product direction and communicating how design decisions related to implementation. The documented communication channels and weekly check-ins also show why keeping the team informed and making blockers visible are important in collaborative work.</p> <p>The Kanban-inspired approach described in the charter provided a framework for thinking about work as visible tasks with ownership and progress, rather than treating the finished website as one large activity. This is particularly relevant when design, frontend refinement and backend configuration need to fit together.</p> <p>My main learning is that a team charter is useful when it is actively referred to during the project, not simply created as a document for submission. Joining after the original charter also made me aware of the importance of onboarding: an additional member needs to understand the team's objectives, communication norms and current responsibilities before contributing effectively. In future projects, I would make that onboarding process explicit and ensure that the team has a shared understanding of any role changes.</p> <p><strong>Development insight:</strong> The charter gave me context for contributing within an existing team structure. It reinforced that technical work is more effective when it is aligned with shared goals, clear communication and accountability.</p> </div>
-<a id="user-stories"></a>
+          <h1>
+            Building ideas into
+            <span>meaningful digital experiences.</span>
+          </h1>
 
-02 — User Stories and Tasks
-<div class="section-intro">User stories express a feature from the end user's perspective; tasks break the work into actionable steps.</div>
-Evidence
-The screenshot below records the team's user stories. The full Trello board is included separately to show the wider organisation of project work. These are team-level artefacts; my individual contribution is explained in the reflection and contribution sections.
+          <p class="hero-description">
+            My ActiveEdge digital portfolio documents my involvement in a
+            collaborative software development project. It brings together
+            project evidence, design work, technical contributions and
+            reflections on my learning throughout the process.
+          </p>
 
-<div class="evidence-image"> <strong>Team user stories</strong> <img src="assets/images/user-stories.png" alt="ActiveEdge team user stories" style="width:100%; max-width:1000px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 2.1 — Screenshot of the ActiveEdge user stories.</p> </div><div class="evidence-image"> <strong>Full Trello project board</strong> <img src="assets/images/trello.png" alt="Full ActiveEdge Trello board" style="width:100%; max-width:1100px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 2.2 — Full Trello board showing the team's project organisation and recorded work.</p> </div><div class="evidence-image"> <strong>Low- and mid-fidelity wireframes</strong> <img src="assets/images/low-and-mid-fidelity-wireframes-comparison.png" alt="Comparison of ActiveEdge low- and mid-fidelity wireframes" style="width:100%; max-width:1000px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 2.3 — Comparison of the low- and mid-fidelity wireframes I contributed to developing.</p> </div>
-Individual reflection
-<div class="reflection"> <h3>Reflection — User Stories and Tasks</h3> <p>My work on the ActiveEdge wireframes required me to think about the website from the visitor's perspective before focusing on the implementation. Moving from low-fidelity to mid-fidelity wireframes helped turn a broad product idea into more considered page structures and interface layouts. This process highlighted that decisions about navigation, content hierarchy and product presentation affect how easily a visitor can understand and use a website.</p> <p>My contribution then extended into frontend implementation and refinement. This gave me a practical connection between a design decision and the development work needed to represent it in the interface. Working on the Supabase database setup also made it important to consider the information that the application needs to store and how the backend data structure relates to what the user sees.</p> <p>The user-story approach helps connect these activities to a clear user outcome. A story should explain why a feature matters, while its tasks should make the work small and understandable enough to plan and complete. I can see how this creates a useful link between the wireframes, the development tasks and the final website.</p> <p>One area I would strengthen in future work is traceability. Each important design or development task should link to an agreed user story and have a clear completion condition. This makes it easier for the team to check whether the work addresses the user's need rather than only whether a screen or code change has been produced.</p> <p><strong>Development insight:</strong> User stories help keep design and implementation focused on the people using the product. My experience reinforced the value of connecting user needs, interface decisions and technical tasks instead of treating them as separate activities.</p> </div>
-<a id="product-backlog"></a>
+          <div class="hero-actions">
+            <a href="#evidence" class="button button-primary">
+              View assessment evidence <span>↘</span>
+            </a>
 
-03 — Product Backlog
-<div class="section-intro">The product backlog is the prioritised list of product work, including features, improvements and fixes.</div>
-Evidence
-The full Trello board is included in Section 02 and provides the available visual record of how the team organised its project work. At the time this portfolio was prepared, there was no separate product-backlog list or dedicated product-backlog screenshot available; the project work shown on the board had been completed.
+            <a href="#contributions" class="button button-secondary">
+              Explore my contributions
+            </a>
+          </div>
 
-I have therefore not presented a reconstructed list as though it were the team's original approved backlog, and I have not assigned retrospective priorities or statuses that are not visible in the source evidence. The user-stories screenshot and full Trello board should be considered together when reviewing the team's planning evidence.
+          <div class="hero-meta">
+            <div>
+              <strong>01</strong>
+              <span>Individual portfolio</span>
+            </div>
+            <div>
+              <strong>05</strong>
+              <span>Assessment categories</span>
+            </div>
+            <div>
+              <strong>AE</strong>
+              <span>ActiveEdge project</span>
+            </div>
+          </div>
 
-<div class="evidence-image"> <strong>Product interface evidence</strong> <img src="assets/images/products.png" alt="ActiveEdge product catalogue and product presentation" style="width:100%; max-width:1000px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 3.1 — ActiveEdge product presentation. This demonstrates the product experience, not the original product backlog.</p> </div><div class="evidence-image"> <strong>Supabase database table</strong> <img src="assets/images/supabase-database-table.png" alt="Supabase database table used for ActiveEdge" style="width:100%; max-width:1000px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 3.2 — Supabase database table evidence. Credentials, secrets and personal data should be hidden.</p> </div>
-Individual reflection
-<div class="reflection"> <h3>Reflection — Product Backlog</h3> <p>The ActiveEdge work helped me understand how a product backlog can connect the overall product direction to the individual activities needed to build it. My own contribution covered several related work areas: wireframing, product design, frontend implementation and Supabase database configuration. Looking at these activities together makes it clear that a website is not developed through visual design alone; the interface and the underlying data structure also need to support the product experience.</p> <p>The backlog is useful because it gives the team one place to understand what work is required and why it matters. For example, wireframes help establish the structure of the experience, frontend tasks turn that structure into an interface, and database tasks support the information the application needs to work with. Organising these activities as backlog items makes dependencies and the broader purpose of each task easier to see.</p> <p>My learning is that backlog quality depends on clarity and prioritisation. An item should describe a meaningful outcome rather than remain a vague instruction. Priorities should also be visible and agreed by the team so that effort is directed towards the most important product needs. I would improve this process by ensuring that each design and development item has an owner, an agreed priority, a clear acceptance condition and a link to the related user story.</p> <p>The table above is structured from the contribution and product information available to me; the team's actual priority order and original backlog wording must be confirmed against Trello. Keeping that distinction is important because a portfolio should accurately represent the team's decisions rather than imply that a reconstructed list is the original record.</p> <p><strong>Development insight:</strong> A product backlog makes the connection between product goals and technical work visible. It also provides a stronger basis for planning when design, frontend and backend tasks depend on one another.</p> </div>
-<a id="sprint-backlog"></a>
+        </div>
 
-04 — Sprint Backlog
-<div class="section-intro">The sprint backlog records the work selected for a particular sprint and the plan for achieving its sprint goal.</div>
-Evidence
-The full Trello board is provided in Section 02 as the available visual record of the team's task organisation. Review its actual lists and cards for any sprint-specific tasks, assignments or completion states. I have not inserted sprint dates, a sprint goal, assignees or statuses that were not supplied or verified.
+        <div class="hero-visual">
 
-If the Trello board does not contain a separately identified sprint backlog, this is a limitation of the available project record rather than a claim that a formal sprint backlog existed.
+          <div class="visual-window">
+            <div class="window-bar">
+              <div class="window-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="window-label">ACTIVEEDGE / PROJECT</span>
+              <span class="window-status">●</span>
+            </div>
 
-<div class="evidence-image"> <strong>Full Trello board — sprint and task context</strong> <img src="assets/images/trello.png" alt="ActiveEdge Trello board showing project task organisation" style="width:100%; max-width:1100px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 4.1 — Full Trello board. Refer to the actual lists and cards when identifying any sprint-specific work.</p> </div>
-Individual reflection
-<div class="reflection"> <h3>Reflection — Sprint Backlog</h3> <p>My contribution to ActiveEdge involved work that moved between design and implementation. This made the purpose of sprint planning particularly clear to me: a broad product requirement needs to be translated into smaller tasks that can be understood, assigned, tracked and reviewed within a defined period. Wireframing, product design, frontend refinement and backend database configuration are related, but each involves different activities and evidence of completion.</p> <p>A sprint backlog can help the team make those activities manageable. For design work, a task can produce a specific wireframe or design revision. For frontend work, it can identify the interface element that needs to be implemented or refined. For backend work, it can describe the required database configuration and the expected structure. Breaking the work down in this way makes progress easier to communicate and reduces ambiguity between people working on connected parts of the product.</p> <p>This project also reinforced the importance of handovers and dependencies. A frontend change may rely on an agreed design, while the way information is displayed may depend on the fields configured in the database. The sprint plan should make these relationships visible so that work can be completed in a sensible order and issues can be raised early.</p> <p>For future sprints, I would make sure every selected task has a clear owner, a definition of done and a realistic scope. I would also review the board during the sprint rather than relying only on an end-of-sprint status. The actual sprint goal, dates and selected cards should accompany this reflection so that the evidence shows how the team's plan was applied in practice.</p> <p><strong>Development insight:</strong> Sprint planning helps turn a broad product backlog into a focused, time-bound plan. It is especially valuable when design, frontend and backend activities need to coordinate towards one product outcome.</p> </div>
-<a id="agile-logbook"></a>
+            <img
+              src="{{ '/assets/images/active-edge-homepage.png' | relative_url }}"
+              alt="ActiveEdge website homepage"
+              class="hero-image"
+            >
 
-05 — Agile Logbook
-<div class="section-intro">The logbook records project activity over time, including stand-ups, sprint planning, progress, blockers and retrospectives.</div>
-Evidence
-I submitted Agile logbook work through Microsoft Teams. The screenshot below groups the available Teams submissions and provides an overview of the submitted records. Two logbooks were also downloaded as PDF documents for July and August and are linked separately so that the lecturer can review the original records.
+            <div class="visual-caption">
+              <span>PROJECT SHOWCASE</span>
+              <strong>ActiveEdge digital experience</strong>
+            </div>
+          </div>
 
-<div class="evidence-image"> <strong>Microsoft Teams — Agile logbook submissions</strong> <img src="assets/images/logbooks.png" alt="Microsoft Teams screenshot showing submitted Agile logbooks" style="width:100%; max-width:1100px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 5.1 — Screenshot showing the Agile logbook submissions on Microsoft Teams.</p> </div><div class="document-links"> <h4>Original Agile logbook documents</h4> <ul> <li><a href="documents/agile-logbook-july.pdf" target="_blank" rel="noopener">Open Agile Logbook — July (PDF)</a></li> <li><a href="documents/agile-logbook-august.pdf" target="_blank" rel="noopener">Open Agile Logbook — August (PDF)</a></li> </ul> </div>
-Individual reflection
-<div class="reflection"> <h3>Reflection — Agile Logbook</h3> <p>My ActiveEdge contribution covered multiple stages of the development process: preparing low- to mid-fidelity wireframes, contributing to product design, refining frontend code and working on the Supabase database structure. Reviewing these activities as a sequence helps me understand how a product moves from an initial concept towards a working digital experience.</p> <p>The logbook is important because the final website only shows the result at a particular point in time. It does not, by itself, explain the decisions, revisions, task progress or collaboration that took place during development. A chronological record can show how the work changed, what was completed, what needed attention and how the team responded to issues.</p> <p>For my own work, recording design iterations would make it easier to explain why a wireframe changed and how that change affected the frontend. Recording database configuration would also help connect the backend work to the data requirements of the interface. This creates a clearer record of the relationship between design, implementation and the data layer.</p> <p>One improvement I would carry into future projects is to keep the logbook up to date as work happens. Dates, task references, decisions, blockers and outcomes are much more reliable when recorded close to the activity. They also make sprint reviews and retrospectives more useful because the team can reflect on actual events rather than depending on memory at the end of a project.</p> <p><strong>Development insight:</strong> An Agile logbook provides an account of the process behind the final product. It supports accountability, makes learning visible and helps connect individual contributions to the wider team's progress.</p> </div>
-<a id="showcase"></a>
+          <div class="floating-note note-top">
+            <span class="note-icon">✳</span>
+            <span>
+              <strong>Design</strong>
+              <small>From concept to interface</small>
+            </span>
+          </div>
 
-ActiveEdge project showcase
-The live website is the public-facing reference point for the product experience. The wireframes explain the design process, the Supabase screenshot provides database evidence, and the Agile records explain how project work was documented.
+          <div class="floating-note note-bottom">
+            <span class="note-icon">⌘</span>
+            <span>
+              <strong>Development</strong>
+              <small>Turning ideas into functionality</small>
+            </span>
+          </div>
 
-<div class="panel"> <h3>Live project</h3> <p><a href="https://active-edge-website.vercel.app/" target="_blank" rel="noopener">Open ActiveEdge — Performance Sportswear ↗</a></p> <p class="small-note">The deployed page identifies itself as a demo store and states that real payments are not enabled. This portfolio does not claim that real transactions have been processed.</p> </div><div class="evidence-image"> <strong>ActiveEdge product showcase</strong> <img src="assets/images/products.png" alt="ActiveEdge products and product catalogue" style="width:100%; max-width:1000px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 6.1 — Product presentation on the ActiveEdge website.</p> </div><div class="evidence-image"> <strong>Supabase database table</strong> <img src="assets/images/supabase-database-table.png" alt="Supabase database table" style="width:100%; max-width:1000px; height:auto; border-radius:12px;" /> <p class="small-note">Figure 6.2 — Database table evidence for my backend contribution.</p> </div>
-Technical evidence register
-Evidence type	What it demonstrates	Evidence included
-User stories	The team's recorded user stories	assets/images/user-stories.png
-Trello	The full project board and recorded task organisation	assets/images/trello.png
-Wireframes	Low- and mid-fidelity design progression	assets/images/low-and-mid-fidelity-wireframes-comparison.png
-Product interface	Product presentation on the website	assets/images/products.png
-Supabase	Database table evidence	assets/images/supabase-database-table.png
-Agile logbooks	Microsoft Teams submission overview	assets/images/logbooks.png
-July logbook	Original submitted logbook	documents/agile-logbook-july.pdf
-August logbook	Original submitted logbook	documents/agile-logbook-august.pdf
-Team charter	Original charter evidence	documents/old-team-charter-evidence.pdf
-Additional evidence to consider: frontend code screenshots, relevant Git commits and any genuine sprint-specific records not visible in the current Trello screenshot.
+        </div>
+      </div>
 
-<a id="professional-development"></a>
+      <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="scroll-line"></span>
+        <span>PORTFOLIO 2026</span>
+      </div>
+    </section>
 
-Professional development — supporting evidence
-The following materials are retained from my existing professional portfolio. They provide supplementary evidence of communication, career preparation and digital portfolio development; they do not replace the five Agile assessment categories above.
 
-<div class="two-col"> <div class="panel"> <h3>Mock interview</h3> <p>A recorded simulated interview for an IT/application development role, supported by an existing reflection on professional communication, technical awareness, confidence and presentation timing.</p> <p><a href="interview.mp4">View mock interview video</a></p> <p><a href="reflection-mock-interview-and-markdown.pdf">Open mock interview and Markdown reflection PDF</a></p> </div> <div class="panel"> <h3>Curriculum vitae</h3> <p>My CV provides additional context about my technical background, development experience and education.</p> <p><a href="Jonathan-Munday-Resume.pdf">View curriculum vitae (PDF)</a></p> </div> </div>
-Reflection — professional development
-My existing mock interview reflection identified strengths in professional tone, structured delivery and technical awareness, while also identifying nervousness, limited real-world examples and presentation timing as areas to improve. These points connect to the ActiveEdge project because practical design and development work gives me concrete examples that I can use to explain my decisions, responsibilities and technical contribution more clearly in professional conversations.
+    <!-- OVERVIEW -->
+    <section class="section overview-section" id="overview">
+      <div class="section-heading">
 
-The work on ActiveEdge also gives me an opportunity to describe a development process rather than only list technologies. I can explain how I approached wireframes, how I refined frontend code and how I worked with Supabase database configuration. This provides a more specific account of my capabilities and the way I contribute across design and implementation.
+        <div>
+          <span class="section-kicker">01 / INTRODUCTION</span>
+          <h2>A record of the <em>process.</em></h2>
+        </div>
 
-<div class="portfolio-hero" style="margin-top:2.5rem; padding:2rem 2.2rem;"> <div class="eyebrow">Project Presentation 3 · October 2026</div> <h2 style="margin: .45rem 0 .7rem; padding:0; border:0; color:#f7fbf8;">Evidence of process. Reflection on practice. Growth through development.</h2> <p class="hero-subtitle">This portfolio brings together the project artefacts and individual reflections that explain my contribution to ActiveEdge and my learning through collaborative application development.</p> </div></div>
+        <p>
+          This portfolio is more than a collection of screenshots. It
+          connects the work completed during ActiveEdge with the learning,
+          decisions and development experience behind it.
+        </p>
+
+      </div>
+
+      <div class="overview-grid">
+
+        <article class="overview-card overview-card-featured">
+          <span class="card-number">01</span>
+          <span class="card-icon">◎</span>
+          <h3>Collect</h3>
+          <p>
+            Bringing together project artefacts, documentation, screenshots
+            and supporting evidence from the ActiveEdge project.
+          </p>
+        </article>
+
+        <article class="overview-card">
+          <span class="card-number">02</span>
+          <span class="card-icon">◇</span>
+          <h3>Select</h3>
+          <p>
+            Identifying relevant evidence that demonstrates the work,
+            development activities and learning outcomes.
+          </p>
+        </article>
+
+        <article class="overview-card">
+          <span class="card-number">03</span>
+          <span class="card-icon">↗</span>
+          <h3>Reflect</h3>
+          <p>
+            Considering what I learned, the challenges I experienced and
+            how my understanding developed.
+          </p>
+        </article>
+
+        <article class="overview-card">
+          <span class="card-number">04</span>
+          <span class="card-icon">∞</span>
+          <h3>Connect</h3>
+          <p>
+            Linking practical project experience to software development
+            concepts and skills that I can apply in future work.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- PROJECT OVERVIEW -->
+    <section class="section project-section">
+      <div class="project-intro">
+
+        <div>
+          <span class="section-kicker">02 / THE PROJECT</span>
+          <h2>Introducing <em>ActiveEdge.</em></h2>
+        </div>
+
+        <p>
+          ActiveEdge was a collaborative software development project
+          involving planning, design and implementation. This portfolio
+          presents selected team artefacts alongside the contributions I
+          personally made during the project.
+        </p>
+
+      </div>
+
+      <div class="project-image">
+        <img
+          src="{{ '/assets/images/active-edge-homepage.png' | relative_url }}"
+          alt="ActiveEdge project homepage"
+          loading="lazy"
+        >
+        <div class="image-overlay">
+          <span>PROJECT PREVIEW</span>
+          <strong>ActiveEdge</strong>
+        </div>
+      </div>
+
+      <div class="project-facts">
+
+        <div>
+          <span class="fact-label">PROJECT</span>
+          <strong>ActiveEdge</strong>
+        </div>
+
+        <div>
+          <span class="fact-label">CONTEXT</span>
+          <strong>CPUT · Application Development</strong>
+        </div>
+
+        <div>
+          <span class="fact-label">MY FOCUS</span>
+          <strong>Design · Frontend · Database</strong>
+        </div>
+
+        <div>
+          <span class="fact-label">APPROACH</span>
+          <strong>Collaborative development</strong>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CONTRIBUTIONS -->
+    <section class="section contributions-section" id="contributions">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="section-kicker">03 / PERSONAL INVOLVEMENT</span>
+          <h2>Where I <em>contributed.</em></h2>
+        </div>
+
+        <p>
+          The following areas represent the contributions I personally
+          made to the ActiveEdge project. Team documentation is presented
+          separately in the assessment evidence below.
+        </p>
+
+      </div>
+
+      <div class="contribution-list">
+
+        <article class="contribution-item">
+          <div class="contribution-index">01</div>
+
+          <div class="contribution-content">
+            <span class="contribution-label">DESIGN & RESEARCH</span>
+            <h3>Wireframes and interface planning</h3>
+            <p>
+              I contributed to the creation of low- and mid-fidelity
+              wireframes, helping establish the structure and layout of
+              the proposed user interface before implementation.
+            </p>
+            <a href="#wireframes" class="text-link">
+              View wireframe evidence <span>↗</span>
+            </a>
+          </div>
+
+          <div class="contribution-visual">
+            <span>01</span>
+            <span>WIREFRAMES</span>
+          </div>
+        </article>
+
+
+        <article class="contribution-item">
+          <div class="contribution-index">02</div>
+
+          <div class="contribution-content">
+            <span class="contribution-label">PRODUCT DESIGN</span>
+            <h3>Product and visual design</h3>
+            <p>
+              I contributed to the product design process, working on
+              the visual direction and interface presentation of the
+              ActiveEdge experience.
+            </p>
+            <a href="#product-design" class="text-link">
+              View design evidence <span>↗</span>
+            </a>
+          </div>
+
+          <div class="contribution-visual">
+            <span>02</span>
+            <span>PRODUCT DESIGN</span>
+          </div>
+        </article>
+
+
+        <article class="contribution-item">
+          <div class="contribution-index">03</div>
+
+          <div class="contribution-content">
+            <span class="contribution-label">FRONTEND DEVELOPMENT</span>
+            <h3>Frontend coding and refinement</h3>
+            <p>
+              I contributed to frontend implementation, coding and
+              refinement of interface components and existing frontend
+              work.
+            </p>
+            <a href="#project-work" class="text-link">
+              View project work <span>↗</span>
+            </a>
+          </div>
+
+          <div class="contribution-visual">
+            <span>03</span>
+            <span>FRONTEND</span>
+          </div>
+        </article>
+
+
+        <article class="contribution-item">
+          <div class="contribution-index">04</div>
+
+          <div class="contribution-content">
+            <span class="contribution-label">BACKEND & DATABASE</span>
+            <h3>Supabase database setup</h3>
+            <p>
+              I contributed to the Supabase backend setup, including
+              database configuration and the creation and organisation
+              of database columns.
+            </p>
+            <a href="#database" class="text-link">
+              View database evidence <span>↗</span>
+            </a>
+          </div>
+
+          <div class="contribution-visual">
+            <span>04</span>
+            <span>SUPABASE</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- PROJECT WORK GALLERY -->
+    <section class="section work-section" id="project-work">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="section-kicker">04 / SELECTED PROJECT WORK</span>
+          <h2>Ideas made <em>visible.</em></h2>
+        </div>
+
+        <p>
+          A closer look at selected design and technical artefacts
+          associated with my ActiveEdge contributions.
+        </p>
+
+      </div>
+
+      <div class="work-grid">
+
+        <article class="work-card work-card-large" id="product-design">
+          <a
+            href="{{ '/assets/images/product-design.png' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="work-image-link"
+          >
+            <img
+              src="{{ '/assets/images/product-design.png' | relative_url }}"
+              alt="ActiveEdge product design work"
+              loading="lazy"
+            >
+            <span class="image-expand">↗</span>
+          </a>
+
+          <div class="work-card-info">
+            <span>DESIGN · 01</span>
+            <h3>Product design</h3>
+            <p>
+              Selected visual evidence of my contribution to the
+              ActiveEdge product design process.
+            </p>
+          </div>
+        </article>
+
+
+        <article class="work-card" id="wireframes">
+          <a
+            href="{{ '/assets/images/low-and-mid-fidelity-wireframes-comparison.png' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="work-image-link"
+          >
+            <img
+              src="{{ '/assets/images/low-and-mid-fidelity-wireframes-comparison.png' | relative_url }}"
+              alt="Comparison of low and mid fidelity wireframes"
+              loading="lazy"
+            >
+            <span class="image-expand">↗</span>
+          </a>
+
+          <div class="work-card-info">
+            <span>DESIGN · 02</span>
+            <h3>Wireframe development</h3>
+            <p>
+              Low- and mid-fidelity wireframes used during interface
+              planning.
+            </p>
+          </div>
+        </article>
+
+
+        <article class="work-card" id="database">
+          <a
+            href="{{ '/assets/images/supabase-database-table.png' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="work-image-link"
+          >
+            <img
+              src="{{ '/assets/images/supabase-database-table.png' | relative_url }}"
+              alt="Supabase database table evidence"
+              loading="lazy"
+            >
+            <span class="image-expand">↗</span>
+          </a>
+
+          <div class="work-card-info">
+            <span>BACKEND · 03</span>
+            <h3>Supabase database</h3>
+            <p>
+              Evidence associated with the database setup and column
+              configuration.
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="gallery-note">
+        Select an image to view it at full size.
+      </p>
+
+    </section>
+
+
+    <!-- ASSESSMENT EVIDENCE -->
+    <section class="section evidence-section" id="evidence">
+
+      <div class="evidence-heading">
+        <div>
+          <span class="section-kicker">05 / ASSESSMENT PORTFOLIO</span>
+          <h2>Evidence of <em>learning.</em></h2>
+        </div>
+
+        <div class="evidence-intro">
+          <p>
+            The five sections below follow the assessment categories.
+            Each contains supporting evidence and a dedicated area for
+            individual reflection.
+          </p>
+          <span class="evidence-total">05 CATEGORIES <i>·</i> 100 MARKS</span>
+        </div>
+      </div>
+
+
+      <!-- CATEGORY 1 -->
+      <article class="evidence-card" id="team-charter">
+
+        <div class="evidence-card-header">
+          <div class="evidence-number">01</div>
+
+          <div class="evidence-title">
+            <span class="evidence-category">CATEGORY 01</span>
+            <h3>Agile Team Charter</h3>
+            <p>Team agreement, expectations and collaboration.</p>
+          </div>
+
+          <div class="evidence-weight">
+            <strong>20%</strong>
+            <span>Assessment weight</span>
+          </div>
+        </div>
+
+        <div class="evidence-card-body">
+
+          <div class="evidence-explanation">
+            <h4>About this evidence</h4>
+            <p>
+              The team charter documents the team's agreed approach to
+              collaboration, responsibilities and expectations during
+              the project.
+            </p>
+
+            <p>
+              <strong>Important context:</strong> I joined the project
+              after the original team charter had been created. This
+              document is therefore presented as a team artefact and
+              not as a document that I personally authored.
+            </p>
+
+            <a
+              class="button button-dark"
+              href="{{ '/documents/ActiveEdge_Team_Charter.pdf' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View team charter <span>↗</span>
+            </a>
+          </div>
+
+          <div class="evidence-preview document-preview">
+            <div class="document-icon">PDF</div>
+            <strong>ActiveEdge Team Charter</strong>
+            <span>Original team documentation</span>
+            <a
+              href="{{ '/documents/ActiveEdge_Team_Charter.pdf' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open document ↗
+            </a>
+          </div>
+
+        </div>
+
+        <div class="reflection-area">
+          <div class="reflection-heading">
+            <span>PERSONAL REFLECTION</span>
+            <span class="placeholder-badge">TO COMPLETE</span>
+          </div>
+
+          <p>
+            [ADD YOUR REFLECTION HERE]
+          </p>
+
+          <div class="reflection-prompts">
+            Use these prompts to complete this section:
+            <ul>
+              <li>What did the charter help you understand about team expectations?</li>
+              <li>How did joining after the charter was created affect your onboarding?</li>
+              <li>How did the team's agreed expectations influence your collaboration?</li>
+              <li>What would you do differently when joining a project in future?</li>
+            </ul>
+          </div>
+        </div>
+
+      </article>
+
+
+      <!-- CATEGORY 2 -->
+      <article class="evidence-card" id="user-stories">
+
+        <div class="evidence-card-header">
+          <div class="evidence-number">02</div>
+
+          <div class="evidence-title">
+            <span class="evidence-category">CATEGORY 02</span>
+            <h3>User Stories and Tasks</h3>
+            <p>Understanding requirements from the user's perspective.</p>
+          </div>
+
+          <div class="evidence-weight">
+            <strong>20%</strong>
+            <span>Assessment weight</span>
+          </div>
+        </div>
+
+        <div class="evidence-card-body">
+
+          <div class="evidence-explanation">
+            <h4>About this evidence</h4>
+            <p>
+              User stories describe functionality from the perspective
+              of the people who will use a product. They help translate
+              requirements into understandable pieces of work.
+            </p>
+
+            <p>
+              The evidence shown here provides a record of the team's
+              user-story and task documentation.
+            </p>
+
+            <a
+              class="button button-dark"
+              href="{{ '/assets/images/user-stories.png' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View user stories <span>↗</span>
+            </a>
+          </div>
+
+          <a
+            class="evidence-image"
+            href="{{ '/assets/images/user-stories.png' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="{{ '/assets/images/user-stories.png' | relative_url }}"
+              alt="ActiveEdge user stories evidence"
+              loading="lazy"
+            >
+            <span>OPEN FULL IMAGE ↗</span>
+          </a>
+
+        </div>
+
+        <div class="reflection-area">
+          <div class="reflection-heading">
+            <span>PERSONAL REFLECTION</span>
+            <span class="placeholder-badge">TO COMPLETE</span>
+          </div>
+
+          <p>
+            [ADD YOUR REFLECTION HERE]
+          </p>
+
+          <div class="reflection-prompts">
+            Use these prompts to complete this section:
+            <ul>
+              <li>What is the purpose of a user story in Agile development?</li>
+              <li>How do user stories help a development team understand requirements?</li>
+              <li>What did you learn about breaking larger requirements into tasks?</li>
+              <li>How could you improve the way you work with user stories in future?</li>
+            </ul>
+          </div>
+        </div>
+
+      </article>
+
+
+      <!-- CATEGORY 3 -->
+      <article class="evidence-card" id="product-backlog">
+
+        <div class="evidence-card-header">
+          <div class="evidence-number">03</div>
+
+          <div class="evidence-title">
+            <span class="evidence-category">CATEGORY 03</span>
+            <h3>Product Backlog</h3>
+            <p>Organising and prioritising project work.</p>
+          </div>
+
+          <div class="evidence-weight">
+            <strong>20%</strong>
+            <span>Assessment weight</span>
+          </div>
+        </div>
+
+        <div class="evidence-card-body">
+
+          <div class="evidence-explanation">
+            <h4>About this evidence</h4>
+            <p>
+              The product backlog provides a structured collection of
+              work items and requirements that the team can consider
+              when planning development.
+            </p>
+
+            <p>
+              The Trello screenshot is included as supporting team
+              evidence of the project's task-management environment.
+            </p>
+
+            <a
+              class="button button-dark"
+              href="{{ '/assets/images/trello.png' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Trello evidence <span>↗</span>
+            </a>
+          </div>
+
+          <a
+            class="evidence-image"
+            href="{{ '/assets/images/trello.png' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="{{ '/assets/images/trello.png' | relative_url }}"
+              alt="ActiveEdge Trello board evidence"
+              loading="lazy"
+            >
+            <span>OPEN FULL IMAGE ↗</span>
+          </a>
+
+        </div>
+
+        <div class="reflection-area">
+          <div class="reflection-heading">
+            <span>PERSONAL REFLECTION</span>
+            <span class="placeholder-badge">TO COMPLETE</span>
+          </div>
+
+          <p>
+            [ADD YOUR REFLECTION HERE]
+          </p>
+
+          <div class="reflection-prompts">
+            Use these prompts to complete this section:
+            <ul>
+              <li>What is the purpose of a product backlog?</li>
+              <li>How does prioritisation help a development team?</li>
+              <li>What did you learn about managing and tracking work?</li>
+              <li>How could backlog organisation be improved in future projects?</li>
+            </ul>
+          </div>
+        </div>
+
+      </article>
+
+
+      <!-- CATEGORY 4 -->
+      <article class="evidence-card" id="sprint-backlog">
+
+        <div class="evidence-card-header">
+          <div class="evidence-number">04</div>
+
+          <div class="evidence-title">
+            <span class="evidence-category">CATEGORY 04</span>
+            <h3>Sprint Backlog</h3>
+            <p>Planning and tracking work within a sprint.</p>
+          </div>
+
+          <div class="evidence-weight">
+            <strong>20%</strong>
+            <span>Assessment weight</span>
+          </div>
+        </div>
+
+        <div class="evidence-card-body">
+
+          <div class="evidence-explanation">
+            <h4>About this evidence</h4>
+            <p>
+              A sprint backlog represents the work selected for a
+              particular sprint and the tasks that contribute towards
+              the sprint goal.
+            </p>
+
+            <p>
+              The screenshot below is included as supporting evidence
+              of the team's sprint planning and task organisation.
+            </p>
+
+            <a
+              class="button button-dark"
+              href="{{ '/assets/images/sprints.png' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View sprint evidence <span>↗</span>
+            </a>
+          </div>
+
+          <a
+            class="evidence-image"
+            href="{{ '/assets/images/sprints.png' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="{{ '/assets/images/sprints.png' | relative_url }}"
+              alt="ActiveEdge sprint planning evidence"
+              loading="lazy"
+            >
+            <span>OPEN FULL IMAGE ↗</span>
+          </a>
+
+        </div>
+
+        <div class="reflection-area">
+          <div class="reflection-heading">
+            <span>PERSONAL REFLECTION</span>
+            <span class="placeholder-badge">TO COMPLETE</span>
+          </div>
+
+          <p>
+            [ADD YOUR REFLECTION HERE]
+          </p>
+
+          <div class="reflection-prompts">
+            Use these prompts to complete this section:
+            <ul>
+              <li>What is the difference between a product backlog and a sprint backlog?</li>
+              <li>How does sprint planning help a team organise its work?</li>
+              <li>What did you learn about working towards a sprint goal?</li>
+              <li>What would you improve about sprint planning or task tracking?</li>
+            </ul>
+          </div>
+        </div>
+
+      </article>
+
+
+      <!-- CATEGORY 5 -->
+      <article class="evidence-card" id="agile-logbook">
+
+        <div class="evidence-card-header">
+          <div class="evidence-number">05</div>
+
+          <div class="evidence-title">
+            <span class="evidence-category">CATEGORY 05</span>
+            <h3>Agile Logbook</h3>
+            <p>Recording progress, activities and learning.</p>
+          </div>
+
+          <div class="evidence-weight">
+            <strong>20%</strong>
+            <span>Assessment weight</span>
+          </div>
+        </div>
+
+        <div class="evidence-card-body">
+
+          <div class="evidence-explanation">
+            <h4>About this evidence</h4>
+            <p>
+              The Agile logbook provides a record of project activities
+              and the development process. It can be used to track
+              progress, document discussions and reflect on work
+              completed during the project.
+            </p>
+
+            <p>
+              The supporting evidence includes the available logbook
+              screenshot and the July and August logbook documents.
+            </p>
+
+            <div class="document-links">
+
+              <a
+                href="{{ '/documents/agile-logbook-july.pdf' | relative_url }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="document-label">PDF</span>
+                <span>
+                  <strong>July Agile Logbook</strong>
+                  <small>Open document ↗</small>
+                </span>
+              </a>
+
+              <a
+                href="{{ '/documents/agile-logbook-august.pdf' | relative_url }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="document-label">PDF</span>
+                <span>
+                  <strong>August Agile Logbook</strong>
+                  <small>Open document ↗</small>
+                </span>
+              </a>
+
+            </div>
+
+          </div>
+
+          <a
+            class="evidence-image"
+            href="{{ '/assets/images/logbooks.png' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="{{ '/assets/images/logbooks.png' | relative_url }}"
+              alt="ActiveEdge Agile logbook evidence"
+              loading="lazy"
+            >
+            <span>OPEN FULL IMAGE ↗</span>
+          </a>
+
+        </div>
+
+        <div class="reflection-area">
+          <div class="reflection-heading">
+            <span>PERSONAL REFLECTION</span>
+            <span class="placeholder-badge">TO COMPLETE</span>
+          </div>
+
+          <p>
+            [ADD YOUR REFLECTION HERE]
+          </p>
+
+          <div class="reflection-prompts">
+            Use these prompts to complete this section:
+            <ul>
+              <li>Why is maintaining an Agile logbook useful?</li>
+              <li>What does documenting progress help a team identify?</li>
+              <li>What did you learn from recording or reviewing project activities?</li>
+              <li>How could you make your project documentation more effective in future?</li>
+            </ul>
+          </div>
+        </div>
+
+      </article>
+
+    </section>
+
+
+    <!-- OVERALL REFLECTION -->
+    <section class="section reflection-section" id="reflection">
+
+      <div class="reflection-layout">
+
+        <div class="reflection-main">
+          <span class="section-kicker">06 / PERSONAL DEVELOPMENT</span>
+          <h2>Learning through <em>doing.</em></h2>
+
+          <p>
+            Software development involves more than writing code. It
+            also requires communication, planning, problem-solving,
+            design decisions and the ability to work with others.
+          </p>
+
+          <p>
+            My involvement in ActiveEdge gave me an opportunity to
+            contribute across different areas of the development
+            process, from interface planning and product design to
+            frontend refinement and database configuration.
+          </p>
+
+          <p>
+            This section will bring together my personal learning
+            outcomes and explain how the experience has influenced
+            the way I approach future software development projects.
+          </p>
+        </div>
+
+        <div class="reflection-placeholder">
+          <div class="reflection-placeholder-icon">✳</div>
+          <span>FINAL PERSONAL REFLECTION</span>
+          <h3>Your learning journey belongs here.</h3>
+          <p>
+            [ADD YOUR OVERALL REFLECTION HERE]
+          </p>
+          <div class="reflection-prompts">
+            Consider:
+            <ul>
+              <li>Your most valuable learning experience.</li>
+              <li>A challenge you encountered and how you approached it.</li>
+              <li>How your technical and collaboration skills developed.</li>
+              <li>What you would do differently in your next project.</li>
+              <li>How this experience connects to your future career.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONCLUSION -->
+    <section class="closing-section">
+      <div class="closing-content">
+        <span class="section-kicker">ACTIVEEDGE · DIGITAL PORTFOLIO</span>
+        <h2>Every project is an opportunity to <em>grow.</em></h2>
+        <p>
+          This portfolio represents selected evidence of my work,
+          participation and development throughout the ActiveEdge
+          project.
+        </p>
+        <a href="#home" class="button button-light">
+          Back to top ↑
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <a href="#home" class="brand footer-brand">
+        <span class="brand-mark">AE</span>
+        <span class="brand-name">
+          <strong>ActiveEdge</strong>
+          <small>Digital Portfolio</small>
+        </span>
+      </a>
+
+      <p>
+        Prepared by <strong>Jonathan Munday</strong>
+        <span>·</span>
+        Cape Peninsula University of Technology
+      </p>
+
+      <a href="#home" class="footer-top">BACK TO TOP ↑</a>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>ACTIVEEDGE DIGITAL PORTFOLIO</span>
+      <span>2026</span>
+    </div>
+  </footer>
+
+</body>
+</html>
